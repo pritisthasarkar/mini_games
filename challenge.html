@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Challenges</title>
+    <link rel="stylesheet" href="challenge.css">
+</head>
+
+<body>
+    <section id="challenge-one">
+        <div class="container">
+            <h1>Challenge 1:Your Age in Days</h1>
+            <div id="button">
+                <button class="btn primary" onclick="computeAge()">Click Me</button>
+                <button class="btn danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div id="result"></div>
+    </section>
+    <section id="challenge-two">
+        <div class="container">
+            <h1>Challenge 2:Cat Generator</h1>
+            <div>
+                <button class="btn" onclick="generate()" style="background-color: rgb(47, 238, 47);">Generate</button>
+            </div>
+        </div>
+        <div id="cat">
+
+        </div>
+    </section>
+
+    <section id="challenge-three">
+        <div class="container" id="rps">
+            <h1>Challenge 3:Rock,Paper,Scissors</h1>
+            <div class="elements" id="flexbox">
+
+                <img src="images/rock.png" id="rock" alt="" onclick="imageClick(this)">
+                <img src="images/paper.jpg" id="paper" alt="" onclick="imageClick(this)">
+                <img src="images/scissor.png" id="scissor" alt="" onclick="imageClick(this)">
+
+            </div>
+        </div>
+    </section>
+
+    <script src="challenge.js"></script>
+</body>
+
+</html>
